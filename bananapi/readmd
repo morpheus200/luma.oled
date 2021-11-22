@@ -1,0 +1,5 @@
+- Banana Pi M1
+- Armbian
+-Autostart
+  - crontab -e
+    - @reboot python3 ~/stats.py &
